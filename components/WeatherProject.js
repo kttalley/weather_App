@@ -1,7 +1,32 @@
-import React from 'react';
-import {StyleSheet, Text, TextInput, View } from 'react-native';
+import React, { Component } from 'react';
+import { WebView } from 'react-native-webview';
+import {StyleSheet, Text, TextInput, View} from 'react-native';
 import Forecast from "./Forecast.js";
 import OpenWeatherMap from "./open_weather_map.js";
+
+
+
+
+
+// class Canvas extends React.Component {
+//     constructor(props) {
+//         super(props);
+//         this.state = {};
+//     }
+//     render() {
+//         return (
+//           <WebView
+//             source={{uri: 'https://facebook.github.io/react-native/'}}
+//           />
+//         );
+//     }
+
+// }
+
+// export default Canvas;
+
+
+
 
 
 class WeatherProject extends React.Component {
